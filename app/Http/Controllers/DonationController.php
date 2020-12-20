@@ -40,9 +40,9 @@ class DonationController extends Controller
 
 
         if ($searchValue != null)
-            $query = Donation::where('name', 'LIKE', '%' . $searchValue . '%')->orWhere('address', '%' . $searchValue . '%')->orWhere('phone', '%' . $searchValue . '%')->orderBy('created_at', $orderBy ?? 'desc');
+            $query = Donation::where('name', 'LIKE', '%' . $searchValue . '%')->orWhere('address', '%' . $searchValue . '%')->orWhere('phone', '%' . $searchValue . '%')->orderBy('created_at', 'desc');
         else
-            $query = Donation::orderBy('created_at', $orderBy ?? 'desc');
+            $query = Donation::orderBy('created_at', 'desc');
 
 
         $data = $query->paginate($length);
@@ -69,17 +69,6 @@ class DonationController extends Controller
      */
     public function store(Request $request)
     {
-        try {
-            $donation = new Donation();
-            $donation->name = $request->name;
-            $donation->phone = $request->phone;
-            $donation->address = $request->address;
-            $donation->message = $request->message;
-            $donation->save();
-            return redirect()->back()->with('message', 'Donation info sent successfully');
-        } catch (Throwable $e) {
-            return redirect()->back()->with('error', 'Donation process failed, please check your data.');
-        }
     }
 
     /**

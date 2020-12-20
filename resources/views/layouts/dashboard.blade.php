@@ -16,8 +16,8 @@
                     <nav>
                         <ul class="metismenu" id="menu">
                             <li class="{{ request()->segment(2) === null ? 'active' : null }}"><a
-                                    href="{{route('admin.admin')}}"><i class="ti-dashboard"></i>
-                                    <span><strong>Home</strong></span></a></li>
+                                    href="{{route('admin.admin')}}"><i class="ti-email"></i>
+                                    <span><strong>Donations</strong></span></a></li>
                         </ul>
                     </nav>
                 </div>

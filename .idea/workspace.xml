@@ -170,8 +170,19 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="watch" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="watch" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.watch" />
         <item itemvalue="npm.dev" />
       </list>
     </recent_temporary>
@@ -186,7 +197,7 @@
       <updated>1607868114359</updated>
       <workItem from="1607868118088" duration="1223000" />
       <workItem from="1607959106262" duration="33627000" />
-      <workItem from="1608353068366" duration="15598000" />
+      <workItem from="1608353068366" duration="16903000" />
     </task>
     <servers />
   </component>
@@ -198,33 +209,41 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="21" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1608106385678" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1608113082174">
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608454601921">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1608113082174" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1608113082173">
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1608454601921" />
+    <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1608454814493">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1608113082173" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1608113082173">
+    <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1608454814493" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1608455079206">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1608113082173" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1608113082173">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1608455079206" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1608455079205">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1608113082173" />
-    <state x="294" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1608386426905">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1608455079205" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1608455079205">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="294" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1608386426905" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1608455079205" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1608455079205">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1608455079205" />
+    <state x="294" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1608454813115">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="294" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1608454813115" />
     <state x="51" y="0" width="988" height="715" key="dock-window-1" timestamp="1608392036033">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="51" y="0" width="988" height="715" key="dock-window-1/0.0.1366.728@0.0.1366.728" timestamp="1608392036033" />
-    <state x="390" y="97" width="585" height="592" key="find.popup" timestamp="1608454281251">
+    <state x="390" y="97" width="585" height="592" key="find.popup" timestamp="1608454488534">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="390" y="97" width="585" height="592" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1608454281251" />
+    <state x="390" y="97" width="585" height="592" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1608454488534" />
   </component>
 </project>

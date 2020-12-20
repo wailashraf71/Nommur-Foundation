@@ -27,6 +27,7 @@ Route::get('/about', 'Web\HomeController@about')->name('about');
 Route::get('/contact', 'Web\HomeController@contact')->name('contact');
 Route::get('/our-cases', 'Web\HomeController@ourCases')->name('our-cases');
 
+Route::post('/donate', 'Web\HomeController@donatePost')->name('donate-post');
 
 Route::fallback(function () {
     return view('admin.404');
