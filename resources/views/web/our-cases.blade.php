@@ -28,13 +28,13 @@
     <div class="our-cases-area section-padding30">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-xl-10 col-lg-10 ">
+                <div class="col-xl-12 col-lg-12 ">
                     <!-- Section Tittle -->
-                    <div class="section-tittle text-center mb-80">
-                        <h2>Every day 6,000 beavers perished</h2>
-                        <p class="pl-20 pr-20">Interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh
-                            et justo
-                            cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+                    <div class="section-tittle text-left mb-80">
+                        <h2 class="mr-1">Adopt programs and activities</h2>
+                        <p class="pr-5 text-left">adopt different programs and activities that address women ,children ,youth problems in the community from social and economical  aspects , by raising the awareness of the danger and harmful traditions against women , mobilise youth to fight harmful practices, reach out to marginalised and rural girls, improving the livelihoods of poor, excluded, and deprived people.
+                            build a peaceful and cohesive society <br> which works towards the welling of all its members, fights exclusion and marginalisation, creates a sense of belonging, promotes trust and offers its members the opportunity of upward mobility, implement initiatives to reap the benefits of stronger, more resilient and productive communities.
+                            identifying the needs of children and improvement of the guidelines for their care, and adoption of locally and culturally sensitive measures for the care of iraqi children especially in the liberated areas , by promoting of physical and psychological recovery and social reintegration of children , promoting  of high quality and free access education for all iraqi children, take  action to stop physical abuse, gender-based violence and sexual exploitation in families and communities.</p>
                     </div>
                 </div>
             </div>

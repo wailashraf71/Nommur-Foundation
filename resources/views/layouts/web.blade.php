@@ -27,7 +27,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
     <style>
-        body{
+        body {
             background-color: #fff;
         }
     </style>
@@ -56,7 +56,13 @@
                         <!-- Logo -->
                         <div class="col-xl-4 col-lg-4">
                             <div class="logo">
-                                <a class="row" href="{{route('home')}}"><img src="{{asset('assets/web/img/logo.png')}}" class="px-4" style="width: 90px" alt=""><h1 class="align-self-center mt-1" style="font-size: 25px;font-family: 'Varela Round', sans-serif; color: #425140">Nommur Foundation</h1></a>
+                                <a class="row" href="{{route('home')}}"><img src="{{asset('assets/web/img/logo.png')}}" class="p-3" style="width: 90px" alt="">
+                                    <div class="col">
+                                        <h1 class="align-self-center mt-4" style="font-size: 25px;font-family: 'Varela Round', sans-serif; color: #425140">
+                                            Nommur Foundation</h1>
+                                        <h3 style="
+">For Development</h3>
+                                    </div></a>
                             </div>
                         </div>
                         <div class="col-xl-8 col-lg-8">
@@ -65,10 +71,14 @@
                                 <div class="main-menu d-none d-lg-block">
                                     <nav>
                                         <ul id="navigation">
-                                            <li class="{{ request()->segment(1) === null ? 'active' : null }}"><a href="{{route('home')}}">Home</a></li>
-                                            <li class="{{ request()->segment(1) === 'about' ? 'active' : null }}"><a href="{{route('about')}}">About</a></li>
-                                            <li class="{{ request()->segment(1) === 'our-cases' ? 'active' : null }}"><a href="{{route('our-cases')}}">Our cases</a></li>
-                                            <li class="{{ request()->segment(1) === 'contact' ? 'active' : null }}"><a href="{{route('contact')}}">Contact</a></li>
+                                            <li class="{{ request()->segment(1) === null ? 'active' : null }}"><a
+                                                    href="{{route('home')}}">Home</a></li>
+                                            <li class="{{ request()->segment(1) === 'about' ? 'active' : null }}"><a
+                                                    href="{{route('about')}}">About</a></li>
+                                            <li class="{{ request()->segment(1) === 'our-cases' ? 'active' : null }}"><a
+                                                    href="{{route('our-cases')}}">Our cases</a></li>
+                                            <li class="{{ request()->segment(1) === 'contact' ? 'active' : null }}"><a
+                                                    href="{{route('contact')}}">Contact</a></li>
                                         </ul>
                                     </nav>
                                 </div>
@@ -160,10 +170,10 @@
                             <div class="footer-tittle">
                                 <h4>Contact us</h4>
                                 <ul>
-                                    <li><a href="#">info@nommur.com</a></li>
+                                    <li><a href="#">info@nommurfoundation.org</a></li>
                                     <li><a href="#">Iraq, Mosul</a></li>
                                     <li><a href="#">Privacy Policy</a></li>
-                                    <li class="number"><a href="#">+964 783 367 3904</a></li>
+                                    <li class="number"><a href="#">+964 774 088 7652</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -189,7 +199,7 @@
 </footer>
 
 <!-- Scroll Up -->
-<div id="back-top" >
+<div id="back-top">
     <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
 </div>
 <!-- JavaScripts -->

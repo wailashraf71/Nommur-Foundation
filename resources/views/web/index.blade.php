@@ -184,7 +184,7 @@
                                 <img src="https://images.pexels.com/photos/5212345/pexels-photo-5212345.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
                             </div>
                             <div class="blog-cap">
-                                <h3><a href="blog_details.html">Leverage agile frameworks to provide a robust
+                                <h3><a href="{{route('donate')}}">Leverage agile frameworks to provide a robust
                                         synopsis</a></h3>
                                 <p>The automated process starts as soon as your clothes go into the machine. Duis
                                     cursus, mi quis viverra ornare.</p>
@@ -199,7 +199,7 @@
                                 <img src=https://images.pexels.com/photos/1098769/pexels-photo-1098769.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
                             </div>
                             <div class="blog-cap">
-                                <h3><a href="blog_details.html">Leverage agile frameworks to provide a robust
+                                <h3><a href="{{route('donate')}}">Leverage agile frameworks to provide a robust
                                         synopsis</a></h3>
                                 <p>The automated process starts as soon as your clothes go into the machine. Duis
                                     cursus, mi quis viverra ornare.</p>

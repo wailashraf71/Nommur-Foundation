@@ -72,14 +72,14 @@
                     <div class="media contact-info">
                         <span class="contact-info__icon"><i class="ti-tablet"></i></span>
                         <div class="media-body">
-                            <h3>+964 771 392 2943</h3>
+                            <h3>+964 774 088 7652</h3>
                             <p>Sun to Thu 9am to 6pm</p>
                         </div>
                     </div>
                     <div class="media contact-info">
                         <span class="contact-info__icon pr-2"><i class="ti-email"></i></span>
                         <div class="media-body">
-                            <h3>info@nommurfoundation.com</h3>
+                            <h3>info@nommurfoundation.org</h3>
                             <p>Send us your query anytime!</p>
                         </div>
                     </div>
